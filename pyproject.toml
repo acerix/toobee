@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "toobee"
+version = "0.1.0"
+description = "Too bee or not too bee? A loyal bee would never have such thoughts."
+authors = ["Dylan Ferris <dylan@psilly.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
